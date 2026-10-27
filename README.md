@@ -135,6 +135,7 @@ Prerequisites
 Installation
 
 git clone https://github.com/Hulk-Dexteen/python-smart-expense-tracker.git
+
 cd python-smart-expense-tracker
 
 Alternatively, download the repository as a ZIP file and extract it.
@@ -171,19 +172,33 @@ amount	8.50	Positive amount, stored as Decimal in Python
 
 
 Example CSV content (illustrative sample data):
+
 date,description,category,amount
+
 2026-10-27,Lunch,Food,8.50
+
 2026-10-27,Bus fare,Transport,2.00
+
 🔍 Implementation Highlights
+
 Accurate money handling
+
 Decimal avoids the binary floating-point representation issues that can affect currency arithmetic. The application accepts amounts with no more than two decimal places and formats output in Singapore dollars.
+
 Input validation
+
 The program checks date format, non-empty descriptions and categories, and valid positive amounts. Invalid input is rejected with a message instead of being saved.
+
 Safer CSV updates
+
 Rather than overwriting the CSV directly, the program writes to a temporary file in the same directory and then replaces the original file. This reduces the risk of leaving a partially written CSV during a failed write, although it is not a substitute for backups.
+
 Category analytics
+
 The summary groups expense amounts by category, calculates the overall total, and identifies the category with the highest spending. Category search is case-insensitive.
+
 📁 Project Structure
+
 python-smart-expense-tracker/
 ├── expensetracker1.py       # Main Python application
 ├── README.md                # Project documentation
@@ -193,9 +208,13 @@ python-smart-expense-tracker/
     ├── add-expense.png
     ├── spending-summary.png
     └── category-search.png
+    
 Local data: expenses.csv is generated when expenses are saved. Avoid committing real personal financial records to a public repository.
+
 🎓 What I Learned
+
 Building this project helped me practise:
+
 - Structuring a Python program with reusable functions
 - Using lists, dictionaries, loops, and conditional statements
 - Reading and writing CSV files with DictReader and DictWriter
