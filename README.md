@@ -123,20 +123,27 @@ tempfile and os	Temporary-file saving and replacement
 
 Lists and dictionaries	In-memory expense records and category totals
 
-
-
 Dependencies: Python standard library only; no pip install required.
+
 🚀 Getting Started
+
 Prerequisites
+
 - Python 3 installed
 - A terminal (Command Prompt, PowerShell, macOS Terminal, etc.)
+
 Installation
+
 git clone https://github.com/Hulk-Dexteen/python-smart-expense-tracker.git
 cd python-smart-expense-tracker
+
 Alternatively, download the repository as a ZIP file and extract it.
+
 Run
+
 python expensetracker1.py
 On some systems, use python3 expensetracker1.py instead.
+
 Menu
 === SMART EXPENSE TRACKER ===
 1. Add expense
@@ -144,14 +151,23 @@ Menu
 3. View spending summary
 4. Search by category
 5. Exit
+
 Enter a number from 1 to 5 and follow the prompts. The CSV file is created when you save your first expense. It is stored relative to the working directory from which you run the program.
+
 🗂️ Data Structure
+
 Each expense contains four fields:
+
 Field	Example	Description
+
 date	2026-10-27	ISO-format expense date
+
 description	Lunch	Expense description
+
 category	Food	Spending category
+
 amount	8.50	Positive amount, stored as Decimal in Python
+
 
 
 Example CSV content (illustrative sample data):
