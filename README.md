@@ -17,6 +17,7 @@ Project focus: Python fundamentals, reliable file handling, data validation, and
 - What I Learned
 - Future Improvements
 - Author
+
 📌 Overview
 The Python Smart Expense Tracker is a menu-driven application that helps users manage and analyse daily spending without an account, database server, or third-party service. Users can add dated expense records, browse history, view spending summaries, and search for expenses in a category.
 
