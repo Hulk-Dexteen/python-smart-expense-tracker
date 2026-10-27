@@ -143,6 +143,7 @@ Alternatively, download the repository as a ZIP file and extract it.
 Run
 
 python expensetracker1.py
+
 On some systems, use python3 expensetracker1.py instead.
 
 Menu
