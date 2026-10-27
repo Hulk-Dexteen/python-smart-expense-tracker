@@ -22,15 +22,25 @@ Project focus: Python fundamentals, reliable file handling, data validation, and
 The Python Smart Expense Tracker is a menu-driven application that helps users manage and analyse daily spending without an account, database server, or third-party service. Users can add dated expense records, browse history, view spending summaries, and search for expenses in a category.
 
 Expense records are stored locally in expenses.csv and loaded automatically when the application starts. The program uses Python's Decimal type for money calculations and validates input before saving.
+
 ✨ Key Features
+
 Feature	Description
+
 ➕ Add expenses	Record date, description, category, and amount in Singapore dollars
+
 📋 View history	Display saved expense records in a numbered list
+
 📊 Spending summary	Calculate total expense count, total spending, totals by category, and the highest-spending category
+
 🔎 Category search	Find expenses by category and calculate the matching total
+
 💾 Persistent storage	Save to expenses.csv and load saved records at startup
+
 🛡️ Validation	Check dates, required text, positive finite amounts, and at most two decimal places
+
 🔁 Safer file writing	Write a temporary CSV file before replacing the previous file
+
 
 
 📸 Screenshots
