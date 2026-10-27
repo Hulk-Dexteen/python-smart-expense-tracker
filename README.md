@@ -222,6 +222,7 @@ Building this project helped me practise:
 - Using Decimal for financial calculations
 - Designing a simple interactive command-line application
 - Publishing and documenting a project on GitHub
+
 🛣️ Future Improvements
 These are planned ideas, not current features:
 - Monthly spending reports and date filters
@@ -230,6 +231,7 @@ These are planned ideas, not current features:
 - Edit and delete expense records
 - Automated tests
 - A graphical or web-based interface
+
 👨‍💻 Author
 Dexteen — Hulk-Dexteen
 
