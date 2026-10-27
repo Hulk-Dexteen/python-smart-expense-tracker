@@ -55,7 +55,9 @@ Spending summary
 Search by category
 
 Tip: Use sample expenses rather than personal financial information in public screenshots.
+
 🏗️ Technical Architecture
+
 ```mermaid
 flowchart TD
     A[User / Terminal] --> B[Menu Controller]
@@ -67,13 +69,21 @@ flowchart TD
     F <--> G[(expenses.csv)]
 ```
 Main components
+
 Component	Python function(s)	Responsibility
+
 Startup and navigation	main(), show_menu()	Load existing data and process menu choices
+
 Expense entry	add_expense()	Validate and append a new expense, then save it
+
 Expense history	view_expenses()	Display recorded expenses
+
 Spending analysis	spending_summary()	Compute total and category-level spending
+
 Category lookup	search_by_category()	Filter matching expenses and total their amounts
+
 Data persistence	load_expenses(), save_expenses()	Read, validate, and write CSV data
+
 
 
 🔄 Application Workflow
