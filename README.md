@@ -106,14 +106,23 @@ flowchart TD
 Save workflow: A valid new expense is added to the in-memory list. The program writes all records to a temporary CSV file, then uses os.replace() to replace the existing file. If saving raises an OSError, the newly added record is removed from the in-memory list and an error is shown.
 
 Load workflow: At startup, the program reads the CSV header, checks the required columns, validates dates and amounts, and loads valid records. A missing CSV is treated as a first run. Invalid saved data stops startup with an error rather than silently continuing with incomplete records.
+
 🧰 Technology Stack
+
 Technology	Role
+
 Python 3	Application logic and terminal interface
+
 csv	Structured CSV reading and writing
+
 decimal.Decimal	Accurate base-10 financial arithmetic
+
 datetime.date	Date validation and today's default date
+
 tempfile and os	Temporary-file saving and replacement
+
 Lists and dictionaries	In-memory expense records and category totals
+
 
 
 Dependencies: Python standard library only; no pip install required.
