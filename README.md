@@ -43,18 +43,21 @@ Feature	Description
 
 
 
-📸 Screenshots
-Screenshots to add: Run the application and save real terminal screenshots using the filenames below. Until those files are uploaded, the image links will not render.
+## 📸 Screenshots
 
-Main menu
+### 1. Main Menu
+![Main Menu](screenshots/main-menu.png)
 
-Adding an expense
+### 2. Adding an Expense
+![Adding an Expense](screenshots/add-expense.png)
 
-Spending summary
+### 3. Spending Summary
+![Spending Summary](screenshots/spending-summary.png)
 
-Search by category
+### 4. Search by Category
+![Category Search](screenshots/category-search.png)
 
-Tip: Use sample expenses rather than personal financial information in public screenshots.
+*All screenshots use sample expense data.*
 
 🏗️ Technical Architecture
 
